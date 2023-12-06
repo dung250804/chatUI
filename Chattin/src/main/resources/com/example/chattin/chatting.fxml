@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="350.0" styleClass="outside-layer-color" stylesheets="@chatting.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chattin.ChattingController">
+   <children>
+      <AnchorPane layoutX="29.0" layoutY="20.0" prefHeight="100.0" prefWidth="291.0">
+         <styleClass>
+            <String fx:value="second-layer-color" />
+            <String fx:value="header-shape" />
+         </styleClass>
+         <children>
+            <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="227.0" AnchorPane.topAnchor="22.0">
+               <image>
+                  <Image url="@img/wifiIcon100px.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="18.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="248.0" AnchorPane.topAnchor="20.0">
+               <image>
+                  <Image url="@img/batteryIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="13.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="205.0" AnchorPane.topAnchor="22.0">
+               <image>
+                  <Image url="@img/signalIcon.png" />
+               </image>
+            </ImageView>
+            <Label text="6:50" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="22.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="632.0" fitWidth="319.0" layoutX="17.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="9.0">
+         <image>
+            <Image url="@img/iphone15.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="40.0" layoutY="120.0" prefHeight="442.0" prefWidth="272.0" styleClass="first-layer-color" AnchorPane.leftAnchor="39.0">
+         <children>
+            <Label layoutX="14.0" layoutY="11.2" prefHeight="30.0" prefWidth="74.0" text="Gâu gâu" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="11.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="receive-message" />
+                  <String fx:value="begin-receive-message-shape" />
+               </styleClass>
+            </Label>
+            <Label layoutX="8.0" layoutY="54.0" prefHeight="30.0" prefWidth="185.0" text="Gâu gâuuu, gâu gâuu gâu?" AnchorPane.topAnchor="45.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="receive-message" />
+                  <String fx:value="mid-receive-message-shape" />
+               </styleClass>
+            </Label>
+            <Label layoutX="8.0" layoutY="82.0" prefHeight="30.0" prefWidth="47.0" text="Gâu!" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="receive-message" />
+                  <String fx:value="last-receive-message-shape" />
+               </styleClass>
+            </Label>
+            <Label layoutX="164.0" layoutY="131.0" prefHeight="30.0" prefWidth="55.0" text="Hello" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="120.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="send-message" />
+                  <String fx:value="begin-send-message-shape" />
+               </styleClass>
+            </Label>
+            <Label layoutX="93.0" layoutY="162.0" prefHeight="30.0" prefWidth="119.0" text="I'm fine thx you" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="155.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="send-message" />
+                  <String fx:value="mid-send-message-shape" />
+               </styleClass>
+            </Label>
+            <Label layoutX="93.0" layoutY="191.2" prefHeight="30.0" prefWidth="156.0" text="How it's going today?" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="190.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="send-message" />
+                  <String fx:value="mid-send-message-shape" />
+               </styleClass>
+            </Label>
+            <Label alignment="CENTER" layoutX="106.0" layoutY="222.0" prefHeight="50.0" prefWidth="170.0" text="Wanna hangout with me tomorow?" wrapText="true" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="225.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <styleClass>
+                  <String fx:value="send-message" />
+                  <String fx:value="last-send-message-shape" />
+               </styleClass>
+            </Label>
+            <Label layoutX="8.0" layoutY="284.0" prefHeight="30.0" prefWidth="81.0" text="Let's gâu!" AnchorPane.topAnchor="280.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="receive-message" />
+                  <String fx:value="alone-message-shape" />
+               </styleClass>
+            </Label>
+            <Label layoutX="18.0" layoutY="294.0" prefHeight="30.0" prefWidth="162.0" text="See you at Ocean park" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="315.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="send-message" />
+                  <String fx:value="alone-message-shape" />
+               </styleClass>
+            </Label>
+            <Label layoutX="10.0" layoutY="357.0" prefHeight="30.0" prefWidth="47.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="receive-message" />
+                  <String fx:value="begin-receive-message-shape" />
+               </styleClass>
+            </Label>
+            <AnchorPane fx:id="cir1" layoutX="14.0" layoutY="367.0" prefHeight="6.0" prefWidth="6.0" style="-fx-background-color: #444444;" styleClass="circle" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="369.5" />
+            <AnchorPane fx:id="cir3" layoutX="47.0" layoutY="364.0" prefHeight="6.0" prefWidth="6.0" style="-fx-background-color: #bdbdbd;" styleClass="circle" AnchorPane.leftAnchor="42.0" AnchorPane.topAnchor="369.5" />
+            <AnchorPane fx:id="cir2" layoutX="37.0" layoutY="360.0" prefHeight="6.0" prefWidth="6.0" style="-fx-background-color: gray;" styleClass="circle" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="369.5" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="38.0" layoutY="551.0" prefHeight="74.0" prefWidth="272.0" AnchorPane.leftAnchor="39.0">
+         <styleClass>
+            <String fx:value="second-layer-color" />
+            <String fx:value="chat-bar-shape" />
+         </styleClass>
+         <children>
+            <TextField fx:id="textField" layoutX="50.0" layoutY="20.0" prefHeight="34.0" prefWidth="170.0" promptText="Aa" />
+            <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="233.0" layoutY="22.0" prefHeight="30.0" prefWidth="30.0" styleClass="chat-bar-button" text="Button">
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/microIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="184.0" layoutY="22.0" prefHeight="30.0" prefWidth="31.0" styleClass="emoji-button" text="Button" AnchorPane.rightAnchor="52.0">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="8.0" layoutY="22.0" prefHeight="30.0" prefWidth="30.0" styleClass="chat-bar-button" text="Button" AnchorPane.leftAnchor="8.0">
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/photosIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="sendButton" contentDisplay="GRAPHIC_ONLY" layoutX="233.0" layoutY="22.0" prefHeight="30.0" prefWidth="30.0" styleClass="chat-bar-button" text="Button" AnchorPane.rightAnchor="8.0">
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/sendIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="41.0" fitWidth="46.0" layoutX="88.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/dog100px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="138.0" layoutY="73.0" text="My Dawg" AnchorPane.topAnchor="73.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="12.0" fitWidth="12.0" layoutX="136.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/onlineIcon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="151.0" layoutY="91.0" prefHeight="18.0" prefWidth="55.0" style="-fx-text-fill: #888888;" text="Online" />
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="220.0" layoutY="74.0" prefHeight="34.0" prefWidth="34.0" text="Button">
+         <styleClass>
+            <String fx:value="call-button-shape" />
+            <String fx:value="call-icon" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="264.0" layoutY="74.0" prefHeight="34.0" prefWidth="34.0" text="Button">
+         <styleClass>
+            <String fx:value="call-button-shape" />
+            <String fx:value="video-call-icon" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="49.0" layoutY="75.0" prefHeight="30.0" prefWidth="30.0" styleClass="back-button">
+         <graphic>
+            <ImageView fitHeight="17.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/backIcon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

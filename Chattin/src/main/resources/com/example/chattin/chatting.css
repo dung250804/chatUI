@@ -1,0 +1,105 @@
+.first-layer-color {
+    -fx-background-color: #fdeeee;
+}
+
+.second-layer-color {
+    -fx-background-color: #ffffff;
+}
+
+.outside-layer-color {
+    -fx-background-color: #b9dede;
+}
+
+.header-shape {
+    -fx-background-radius: 50 50 0 0;
+}
+
+.chat-bar-shape {
+    -fx-background-radius: 0 0 36 36;
+}
+
+.call-button-shape {
+    -fx-background-radius: 50%;
+    -fx-background-color: #f4edf8;
+}
+.call-button-shape:hover {
+    -fx-background-color: #e7d6f3;
+}
+
+.call-icon {
+    -fx-graphic: url("../chattin/img/call20px.png");
+}
+
+.video-call-icon {
+    -fx-graphic: url("../chattin/img/videoCall20px.png");
+}
+
+.back-button {
+    -fx-background-radius: 50%;
+    -fx-background-color: none;
+}
+.back-button:hover {
+    -fx-background-radius: 50%;
+    -fx-background-color: #eaeaea;
+}
+
+.text-field {
+    -fx-background-radius: 50;
+    -fx-background-color: #fff4f4;
+    -fx-border-radius: 50;
+    -fx-border-width: 2;
+    -fx-border-color: #deb0b0;
+    -fx-text-fill: #000000;
+}
+
+.chat-bar-button {
+    -fx-background-color: #eee9ff;
+    -fx-background-radius: 50%;
+}
+
+.emoji-button {
+    -fx-background-radius: 50%;
+}
+
+.alone-message-shape {
+    -fx-background-radius: 50 50 50 50;
+}
+
+.receive-message {
+    -fx-background-color: #ffafaf;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14;
+    -fx-font-family: System;
+    -fx-padding: 0 0 0 10px;
+}
+
+.begin-receive-message-shape {
+    -fx-background-radius: 50 50 50 10;
+}
+.mid-receive-message-shape {
+    -fx-background-radius: 10 50 50 10;
+}
+.last-receive-message-shape {
+    -fx-background-radius: 10 50 50 50;
+}
+
+.send-message {
+    -fx-background-color: #8c52ff;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14;
+    -fx-font-family: System;
+    -fx-padding: 0 0 0 10px;
+}
+
+.begin-send-message-shape {
+    -fx-background-radius: 50 50 10 50;
+}
+.mid-send-message-shape {
+    -fx-background-radius: 50 10 10 50;
+}
+.last-send-message-shape {
+    -fx-background-radius: 20 5 20 20;
+}
+.circle{
+    -fx-background-radius: 50%;
+}
